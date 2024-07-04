@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.website-name {
+  font-family: 'Gill Sans MT'; 
+  font-size: 46px; 
+  margin-left: 550px;
+  margin-top:-10px;
+}
+body{
+  background-color: white;
+  background-image: url('D:/yashu/trial23/send location, msg, voice/trial2/src/image/girl17.jpg'); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+
+.logout-button {
+  background-color: rgb(56, 204, 245);
+  color: black;
+  font-size: 26px;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: -98px;
+  right: 10px;
+}
+
+.logout-button:hover {
+  background-color: purple;
+}
+
+.know-emergency-button {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.know-emergency-button:hover {
+  background-color: darkred; 
+}
+
+.emergency-button {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  padding: 90px 80px;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 250px;
+  left: 48%;
+  transform: translateX(-50%); 
+}
+
+.emergency-button:hover {
+  background-color: darkred;
+}
+
+.corner-buttons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.edit-button{
+  background-color:rgb(56, 204, 245);
+  border: none;
+  font-size: 17px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.corner-buttons button {
+  background-color: rgb(56, 204, 245);
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.corner-buttons button:hover {
+  background-color: purple;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+}
+
+form button {
+  background-color: rgb(56, 204, 245);;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: purple;
+}
