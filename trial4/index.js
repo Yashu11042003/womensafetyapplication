@@ -63,7 +63,9 @@ const sendSMS = async (userNumbers, body) => {
 
 const app = express();
 app.use(cors({
-  origin:["http://localhost:5173"]
+  origin:["http://womensafeyashu.versel.app"],
+  methods:["POST","GET"],
+  credentials:true,
 }));
 app.use(bodyParser.json());
 
